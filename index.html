@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartzilla</title>
+    <!-- Bootstrap CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custome CSS Style  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="container-fluid">
+            <div class="home">
+                <!-- Carosel  -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center" style="background-color: #3AAFD2;">
+                                <div class="col-lg-5">
+                                    <div class="home-detail text-white">
+                                        <h3>Has just arrived!</h3>
+                                        <h1>Huge Summer Collection</h1>
+                                        <p>Swimwear, Tops, Shorts, Sunglasses & much more...</p>
+                                        <button class="btn home-button">Shop Now <i
+                                                class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <img src="https://cartzilla.createx.studio/img/home/hero-slider/01.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center" style="background-color: #F5B1B0;">
+                                <div class="col-lg-5">
+                                    <div class="home-detail text-white">
+                                        <h3>Hurry up! Limited time offer.</h3>
+                                        <h1>Women Sportswear Sale</h1>
+                                        <p>Sneakers, Keds, Sweatshirts, Hoodies & much more...</p>
+                                        <button class="btn home-button">Shop Now </i><i
+                                                class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <img src="https://cartzilla.createx.studio/img/home/hero-slider/02.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center" style="background-color: #EBA170;">
+                                <div class="col-lg-5">
+                                    <div class="home-detail text-white">
+                                        <h3>Complete your look with</h3>
+                                        <h1>New Men's Accessories</h1>
+                                        <p>Hats & Caps, Sunglasses, Bags & much more...</p>
+                                        <button class="btn home-button">Shop Now </i><i
+                                                class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <img src="https://cartzilla.createx.studio/img/home/hero-slider/03.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Show-up products  -->
+                <div class="category">
+                    <div class="show-up">
+                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm01.jpg" alt="" class="img-fluid">
+                        <p>Men</p>
+                    </div>
+                    <div class="show-up">
+                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm02.jpg" alt="" class="img-fluid">
+                        <p>Women</p>
+                    </div>
+                    <div class="show-up">
+                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm03.jpg" alt="" class="img-fluid">
+                        <p>Kids</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </header>
+<main>
+    <!-- Treding Products section  -->
+    <section class="container trend-products">
+        <h2 class="text-center mb-4">Treding Products</h2>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/01.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/02.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/03.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/04.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/05.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/06.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/11.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cartzilla.createx.studio/img/shop/catalog/08.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <small class="card-text">Sneakers & Keds</small>
+                        <p class="card-title">Women Colorblock Sneakers</p>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <p>$150.<span>00</span></p>
+                        </div>
+                        <div>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="sizes">
+                            <div class="size">8</div>
+                            <div class="size">8.5</div>
+                            <div class="size">7.5</div>
+                            <div class="size">9</div>
+                        </div>
+                        <div class="product-btn">
+                            <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                cart</button>
+                            <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
+                        </div>
+                    </div>
+                    <div class="whitelist">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class="btn btn-outline-primary">More products <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Offers section  -->
+    <section class="container">
+        <div class="offers">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="limited-offer">
+                        <div class="limited-offer-detail">
+                            <h5>Hurry up! Limited time offer</h5>
+                            <h3>Converse All Star on Sale</h3>
+                            <div class="btn btn-sm btn-primary">Shop Now</div>
+                        </div>
+                        <div class="limited-offer-img">
+                            <img src="https://cartzilla.createx.studio/img/shop/catalog/banner.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="reserve">
+                        <h5>Your Add Banner Here</h5>
+                        <p>Hurry up to reserve your spot</p>
+                        <div class="btn btn-sm btn-primary">Contact Us</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer section part 2  -->
+
+    <section class="container main-products-day">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="product-day">
+                    <div class="product-day-detail">
+                        <div>
+                            <h3>Hoodie day</h3>
+                            <a href="">Shop hoodies <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                        <div>
+                            <button class="btn-default"><i class="fas fa-chevron-left"></i></button>
+                            <button class="btn-default"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-day-img">
+                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-lg04.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cartzilla.createx.studio/img/shop/catalog/20.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <small class="card-text">Sneakers & Keds</small>
+                                <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p>$150.<span>00</span></p>
+                                </div>
+                                <div>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="whitelist">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="	https://cartzilla.createx.studio/img/shop/catalog/21.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <small class="card-text">Sneakers & Keds</small>
+                                <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p>$150.<span>00</span></p>
+                                </div>
+                                <div>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="whitelist">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="	https://cartzilla.createx.studio/img/shop/catalog/23.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <small class="card-text">Sneakers & Keds</small>
+                                <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p>$150.<span>00</span></p>
+                                </div>
+                                <div>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="whitelist">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="	https://cartzilla.createx.studio/img/shop/catalog/51.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <small class="card-text">Sneakers & Keds</small>
+                                <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p>$150.<span>00</span></p>
+                                </div>
+                                <div>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="whitelist">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="	https://cartzilla.createx.studio/img/shop/catalog/24.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <small class="card-text">Sneakers & Keds</small>
+                                <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p>$150.<span>00</span></p>
+                                </div>
+                                <div>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="whitelist">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="	https://cartzilla.createx.studio/img/shop/catalog/54.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <small class="card-text">Sneakers & Keds</small>
+                                <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p>$150.<span>00</span></p>
+                                </div>
+                                <div>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="whitelist">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- band section  -->
+    <section class="container brand-container">
+        <h2 class="text-center mb-4">Shop by brand</h2>
+        <div class="row row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/01.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/02.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/03.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/04.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/05.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/06.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/07.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/08.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/09.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/10.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/11.png" alt=""></div>
+            </div>
+            <div class="col">
+                <div class="brand"><img src="https://cartzilla.createx.studio/img/shop/brands/12.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog section  -->
+    <section class="container-fluid blog-details">
+        <div class="row">
+            <div class="col-lg-6 p-0">
+                <div class="blog-detail">
+                    <i class="far fa-edit"></i>
+                    <h4>Read the blog</h4>
+                    <p>Latest store, fashion news and trends</p>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0">
+                <div class="insta-detail">
+                    <i class="fab fa-instagram"></i>
+                    <h4>Follow on Instagram</h4>
+                    <p>#ShopWithCartzilla</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <!-- Footer section -->
+    <footer>
+        <section class="container-fluid about-us-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="shop-departments">
+                            <ul>
+                                <li>
+                                    <h5>Shop departments</h5>
+                                </li>
+                                <li>Sneakers & Athletic</li>
+                                <li>Athletic Apparel</li>
+                                <li>Sandals</li>
+                                <li>Jeans</li>
+                                <li>Shirts & Tops</li>
+                                <li>Shorts</li>
+                                <li>T-Shirts</li>
+                                <li>Swimwear</li>
+                                <li>Clogs & Mules</li>
+                                <li>Bags & Wallets</li>
+                                <li>Accessories</li>
+                                <li>Sunglasses & Eyewear</li>
+                                <li>Watches</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="account-shipping-info">
+                            <ul>
+                                <li>
+                                    <h5>Account & shipping info</h5>
+                                </li>
+                                <li>Your account</li>
+                                <li>Shipping rates & policies</li>
+                                <li>Refunds & replacements</li>
+                                <li>Order tracking</li>
+                                <li>Delivery info</li>
+                                <li>Taxes & fees</li>
+                            </ul>
+                        </div>
+                        <div class="about-us">
+                            <ul>
+                                <li>
+                                    <h5>About us</h5>
+                                </li>
+                                <li>About company</li>
+                                <li>Our team</li>
+                                <li>Careers</li>
+                                <li>News</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="stay-informed">
+                            <h5>Stay informed</h5>
+                            <div class="input-group input-group-lg mb-3">
+                                <input type="text" class="form-control" placeholder="Your email"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Subscribe*</button>
+                                <i class="email-icon far fa-envelope"></i>
+                            </div>
+                            <small>*Subscribe to our newsletter to receive early discount offers, updates and new
+                                products info.</small>
+                            <h5>Download our app</h5>
+                            <div class="app">
+                                <div class="ios">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png"
+                                        alt="">
+                                    <div class="ios-detail">
+                                        <small>Download on the</small>
+                                        <h6>App Store</h6>
+                                    </div>
+                                </div>
+                                <div class="android">
+                                    <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/google-play-store-logo.png"
+                                        alt="">
+                                    <div class="android-detail">
+                                        <small>Download on the</small>
+                                        <h6>Google Play</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid why-us-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="why-us">
+                            <div class="why-us-logo">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="why-us-detail">
+                                <h5>Fast and free delivery</h5>
+                                <p>Free delivery for all orders over $200</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-us">
+                            <div class="why-us-logo">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="why-us-detail">
+                                <h5>Money back guarantee</h5>
+                                <p>We return money within 30 days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-us">
+                            <div class="why-us-logo">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="why-us-detail">
+                                <h5>24/7 customer support</h5>
+                                <p>Friendly 24/7 customer support</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-us">
+                            <div class="why-us-logo">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div class="why-us-detail">
+                                <h5>Secure online payment</h5>
+                                <p>We possess SSL / Secure сertificate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">© All rights reserved. Made by Prosenjit Chowdhury. 2021</p>
+            </div>
+        </section>
+    </footer>
+    <!-- JS Style Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
